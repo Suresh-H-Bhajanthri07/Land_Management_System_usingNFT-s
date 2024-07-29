@@ -12,6 +12,10 @@ This application aims to revolutionize the traditional land registration system 
 5) Fraud Prevention: The use of blockchain ensures that all transactions are transparent and immutable, significantly reducing the risk of fraud.
 6) Efficiency: The decentralized nature of the system accelerates the registration process and reduces paperwork.
 
+![Architecture Diagram](images/activitydai.png)
+
+*Figure 1: Represent the activity diagram of Land Management System illustrates the workflow of a decentralized land ownership and trading system using blockchain and NFTs, comprising two main processes: registering land and buying land.*
+
 ## Technologies Used
 
 ### Frontend
@@ -71,6 +75,20 @@ Configure IPFS to store land parcel data.
 2) List Land for Sale: Owners can list their tokenized land parcels for sale with a specified amount.
 3) Buy Land: Interested buyers can purchase listed land parcels if suffecient amount is available then successful transfer for land parcel to buyer account.
 4) Re-sell Land: Owners can re-sell their land parcels at any time by specifying a new amount.
+
+## Results
+![Result 1](images/nftresult1.png)
+
+![Result 2](images/nftresult2.png)
+
+![Result 3](images/nftresult3.png)
+
+![Result 4](images/nftresult4.png)
+
+![Result 5](images/nftresult5.png)
+
+![Result 6](images/nftresult6.png)
+
 
 ## Contact
 For any questions or feedback, please contact suresh.bhajantri.h@gmail.com.
