@@ -33,7 +33,7 @@ function App() {
           const deployedNetwork = LandNFT.networks[networkId];
           const contractInstance = new web3Instance.eth.Contract(
             LandNFT.abi,
-            "0x40E1B3AEb8942DF3E28A0E205CCDC8b285e12A63" //contract address
+            "0x9757C3e7930880cF99b079a3F9733a14ACC496Cf" //contract address
           );
           setContract(contractInstance);
           const accounts = await web3Instance.eth.getAccounts();

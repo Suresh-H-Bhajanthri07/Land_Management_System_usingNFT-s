@@ -151,8 +151,9 @@ function LandPurchaseComponent({ buyLand, contract }) {
         <div className="confirmationTab">
           <h2>Selected Land Details :</h2>
           <p>Coordinates: {selectedLand.coordinates[0]}, {selectedLand.coordinates[1]}</p>
-          <p>Area: {selectedLand.area.toString()}</p>
-          <p>Price: {Web3.utils.fromWei(selectedLandPrice.toString(), "ether")} ETH</p>
+          <p>Area: {selectedLand.area.toString()} sq .ft</p>
+          {/* <p>Price: {Web3.utils.fromWei(selectedLandPrice.toString(), "ether")} ETH</p> */}
+          <p>Price: {selectedLandPrice.toString()} ETH</p>
           <button onClick={handleBuyLand} disabled={isPurchasing}>
             {isPurchasing ? "Purchasing..." : "Buy Land"}
           </button>

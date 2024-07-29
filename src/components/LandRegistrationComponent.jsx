@@ -62,7 +62,7 @@ function LandRegistrationComponent({ registerLand }) {
           className="input-r"
           value={landId}
           onChange={(e) => setLandId(e.target.value)}
-          placeholder="Land ID"
+          placeholder="Survey NO."
         />
         <input
           type="text"

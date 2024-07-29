@@ -49,7 +49,7 @@ function LandListingComponent({ listForSale, contract, connectedAccount }) {
                   <img src={land.image} alt="Land" />
                   <div id="lpart">
                     <p>
-                      Image:{" "}
+                      Document:{" "}
                       <a
                         href={land.image}
                         target="_blank"
@@ -58,7 +58,7 @@ function LandListingComponent({ listForSale, contract, connectedAccount }) {
                         View Image
                       </a>
                     </p>
-                    <h3>LandID : {land.id.toString()}</h3>
+                    <h3>Survey NO. : {land.id.toString()}</h3>
                     <p>Description : {land.description}</p>
                     <div id="aprice">
                       <h3>Area : {land.area.toString()}</h3>
@@ -91,7 +91,7 @@ function LandListingComponent({ listForSale, contract, connectedAccount }) {
             type="text"
             value={landId}
             onChange={(e) => setLandId(e.target.value)}
-            placeholder="Land ID"
+            placeholder="Survey NO."
           />
           <input
             type="text"

@@ -25,8 +25,8 @@ const Land = ({ land, onSelect }) => {
     <div className="card">
       <img src={image} alt="Land" />
       <div id="lpart">
-        <p>Image: <a href={image} target="_blank" rel="noopener noreferrer">View Image</a></p>
-        <h3>LandID : {id.toString()}</h3>
+        <p>Document: <a href={image} target="_blank" rel="noopener noreferrer">View Image</a></p>
+        <h3>Survey NO. : {id.toString()}</h3>
         <p>Description : {description}</p>
         <div id="aprice">
           <h3>Area : {area.toString()}</h3>

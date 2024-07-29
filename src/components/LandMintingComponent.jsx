@@ -30,7 +30,7 @@ function LandMintingComponent({ mintNFT }) {
             type="text"
             value={landId}
             onChange={(e) => setLandId(e.target.value)}
-            placeholder="Land ID"
+            placeholder="Survey NO."
           />
           <button onClick={handleMintNFT}>Mint NFT</button>
         </div>

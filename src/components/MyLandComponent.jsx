@@ -39,8 +39,8 @@ function MyLandComponent({ contract, connectedAccount }) {
                 <div className="card">
                   <img src={land.image} alt="Land" />
                   <div id="lpart">
-                    <p>Image: <a href={land.image} target="_blank" rel="noopener noreferrer">View Image</a></p>
-                    <h3>LandID : {land.id.toString()}</h3>
+                    <p>Document: <a href={land.image} target="_blank" rel="noopener noreferrer">View Image</a></p>
+                    <h3>Survey NO. : {land.id.toString()}</h3>
                     <p>Description : {land.description}</p>
                     <div id="aprice">
                       <h3>Area : {land.area.toString()}</h3>
