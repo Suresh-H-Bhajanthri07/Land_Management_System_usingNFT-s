@@ -51,23 +51,23 @@ This application aims to revolutionize the traditional land registration system 
    
 3) Compile and deploy contracts:
    a) Ensure Ganache is running, then:
-   truffle compile
-   truffle migrate
+   ##### truffle compile
+   ##### truffle migrate
 
 4) Start the development server:
    a) Ensure IPFS is running, then:
-   npm start
+   ##### npm start
 
 ## Configuration
 
 ### MetaMask Configuration:
-Connect MetaMask to your local blockchain (usually at http://127.0.0.1:7545 because we are using Ganache).
-Import accounts from Ganache to MetaMask.
+##### Connect MetaMask to your local blockchain (usually at http://127.0.0.1:7545 because we are using Ganache).
+##### Import accounts from Ganache to MetaMask.
 
 ### IPFS Configuration:
 
-Ensure IPFS Desktop is installed and running.
-Configure IPFS to store land parcel data.
+##### Ensure IPFS Desktop is installed and running.
+##### Configure IPFS to store land parcel data.
 
 ## Usage
 
